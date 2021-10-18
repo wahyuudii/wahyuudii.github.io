@@ -4,3 +4,12 @@
 .warna-bg{
 	background-color:red;
 }
+.Jumbotron-bg{
+	background-size: cover;
+	background: url(img/bg.jpg);
+	background-size: 300px;
+
+}
+.menu ul{
+    float: left;
+}

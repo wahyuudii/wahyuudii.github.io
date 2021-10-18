@@ -1,368 +1,329 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheet"  href="css/style.css">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-      <!-- My Css -->
-      
+<html lang="en">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wahyudi</title>
 
-      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></script> -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="assets/js/jquery.js"></script>
+	<style>
+		html{overflow-x: hidden;}
+	</style>
 
-      
+</head>
 
-      <title>Wahyudi</title>
-    </head>
+<body id="home">
+	<button id="btnTop" class="btn fa fa-chevron-circle-up" title="Back to top"></button>
+	<!-- NAVBAR -->
+	<nav class="d-flex justify-content-around align-items-center">
+		<div class="logo" type="button">
+			<h4 class="mb-0">Wahyudi</h4>
+		</div>
+		<ul class="list-unstyled m-0">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#service">Layanan</a></li>
+			<li><a href="#about">Tentang</a></li>
+			<li><a href="#contact">Kontak</a></li>
+		</ul>
+		<div class="menu-toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</nav>
+	<!-- /NAVBAR -->
+
+	<!-- CONTAINER -->
+
+	<!-- section 1 -->
+	<section id="sec1" class=" mt-0 p-0 d-flex justify-content-center row">
+		<div class="d-block">
+			<h1 class="mb-3">Hallo,</h1>
+			<h1 class="mb-3">Saya Wahyudi</h1>
+			<h4 class="mb-5">Seorang <span class="text-slider1"></span>
+				<span id="text1">
+					UI/UX Designer,
+					Design Graphic,
+					Front End Developer
+				</span>
+				<br><br><br>
+				<button id="btn" onclick="location.href = 'https://linkedin.com/in/wahyudii'" class="btn mt-5">Portfolio</button>
+		</div>
+		<div class="d-block">
+			<img class="border-bottom" src="assets/img/" alt="150x100">
+		</div>
+	</section>
+
+	<!-- section 2 -->
+	<section id="sec2" class="my-5 py-5">
+		<h2 id="about" class="text-center mb-1">Tentang</h2>
+		<h6 id="subhead" class="text-center mb-5 font-weight-bold">Siapa Saya?</h6>
+		<div class="container d-flex justify-content-around row m-auto">
+			<div id="imgAbout" class="col-md text-center">
+				<img src="assets/img/profile.PNG" class="img-fluid rounded" alt="size 300x321">
+			</div>
+			<div id="descAbout" class="text-justify col-md-7 rounded">
+				<span id="text2">
+					UI/UX Designer,
+					Front End Developer,
+					Design Graphic
+				</span>
+				<h4>Saya Wahyudi dan saya <span class="text-slider2"></span></h4>
+				<p>Saya adalah seorang Front End Web Developer,UI/UX Designer dan juga seorang Graphic design yang telah banyak membuat berbagai design seperti design tampilan Web,design Aplikasi Moblile.Dan untuk design graphic saya juga telah banyak membuat berbagai design, seperti  design product, logo, banner dan juga design untuk gambar baju serta juga membuat berbagai website dan juga aplikasi penjualan,saya juga memiliki pengalaman kerja sebagai Admin di PT.Tees Factory selama 4 tahun</p>
+				<a href="assets/pdf/CV.pdf" target="_blank" id="btn" class="btn">Lihat CV</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- section 3 -->
+	<section id="sec3" class="bg-dark my-5 py-5 text-white">
+		<h2 id="service" class="text-center mb-1">Layanan</h2>
+		<h6 id="subhead" class="text-center mb-5 font-weight-bold">Jasa yang saya layani</h6>
+		<div class="container d-flex justify-content-center row m-auto text-center">
+			<div id="myAds" class="col-md-3 p-0 mx-3 rounded bg-secondary ">
+				<div class="box">
+					<i class="fa fa-pencil-square fa-3x"></i>
+					<h5 class="my-2">UI/UX</h5>
+					<p>Menerima jasa pembuatan design tampilan website dan juga design tampilan Aplikasi Mobile </p>
+				</div>
+			</div>
+			<div id="webDesign" class="col-md-3 p-0 mx-3 rounded bg-secondary ">
+				<div class="box">
+					<i class="fa fa-code fa-3x"></i>
+					<h5 class="my-2">Web Developer</h5>
+					<p>Menerima jasa pembuatan Website, seperti website Bisnis dan juga website Company Profile</p>
+				</div>
+			</div>
+			<div id="myWriter" class="col-md-3 p-0 mx-3 rounded bg-secondary ">
+				<div class="box">
+					<i class="fa fa-pencil fa-3x"></i>
+					<h5 class="my-2">Design Graphic</h5>
+					<p>Jasa pembuatan Design grafis seperti logo, banner, spanduk, design untuk gambar kaos dll</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- section 4 -->
+	<section id="sec4" class="my-5 py-5">
+		<h2 class="text-center mb-1">Keahlian</h2>
+		<h6 id="subhead" class="text-center mb-5 font-weight-bold">Apa yang saya tahu?</h6>
+		<div class="d-flex justify-content-center row">
+			<div class="col-md-5 m-4">
+				<div id="desc-skill">
+					<h5>Kemampuan Saya</h5>
+					<p>Saya mampu mengoperasikan tools komputer sebagai pendukung dan juga saya telah menguasai bahasa
+						pemrograman khususnya sebagai pendukung pemrograman </p>
+				</div>
+
+				<!-- Data descripsi hidden -->
+				<div id="desc-skill-0">
+					<h5>Kemampuan Saya</h5>
+					<p>Saya mampu mengoperasikan tools dan sofware komputer sebagai pendukung dan juga saya telah menguasai bahasa pemrograman khususnya sebagai pendukung pemrograman </p>
+				</div>
+				<div id="desc-skill-1">
+					<h4>HTML</h4>
+					<p>(Hyper Text Markup Language) HTML5 telah saya kuasai sebagai landasan utama dalam mempelajari <b>
+							Pemrograman Web</b></b></p>
+				</div>
+				<div id="desc-skill-2">
+					<h4>css</h4>
+					<p>Saya sudah menguasai CSS yaitu bahasa pemograman utama untuk mendesain halaman sebuah website</p>
+				</div>
+				<div id="desc-skill-3">
+					<h4>PHP</h4>
+					<p>Saat ini saya ditahap belajar bahasa pemoraman PHP yaitu untuk membuat sistem Back End sebuah website</p>
+				</div>
+				<div id="desc-skill-4">
+					<h4>Bootstrap</h4>
+					<p>Saya telah mempelajari dan menguasi <b>Bootstrap V4</b> sebagai salah satu framework CSS</p>
+				</div>
+				<div id="desc-skill-5">
+					<h4>UI/UX</h4>
+					<p> Saya telah Menguasai UI UX Designer untuk mendesign tampilan dan pengembangan suatu produk digital baik itu aplikasi mobile, website, smart watch dan lain sebagainya.</p>
+				</div>
+				<div id="desc-skill-6">
+					<h4>CorelDraw</h4>
+					<p>Saya telah menguasai Sofware Coreldwar yang mana telah banyak membuat design seperti design Logo,Banner,Product dan juga design untuk gambar kaos</p>
+				</div>
+				<div id="desc-skill-7">
+					<h4>Ilustrator</h4>
+					<p>Saya telah Belajar dan  menguasai Sofware Illustrator yang mana telah bisa membuat design Logo,Banner,Product dan juga design untuk gambar kaos</p>
+				</div>
+				<div id="desc-skill-8">
+					<h4>Photoshop</h4>
+					<p>Saya telah belajar Sofware Phothoshop yang mana telah bisa mengedit gambar dan lain sebagainya</p>
+				</div>
+				<!-- /Data descripsi hidden -->
+
+			</div>
+			<div class="col-md-4 m-4 p-0">
+				<div id="box-skill-1" class="d-flex justify-content-between align-items-center">
+					<h6 class="m-0 col-2">HTML</h6>
+					<span id="line1" class="line rounded"></span>
+				</div>
+				<div id="box-skill-2" class="d-flex my-3 justify-content-between align-items-center">
+					<h6 class="m-0 col-2">CSS</h6>
+					<span id="line2" class="line rounded"></span>
+				</div>
+				<div id="box-skill-3" class="d-flex my-3 justify-content-between align-items-center">
+					<h6 class="m-0 col-2">PHP</h6>
+					<span id="line3" class="line rounded"></span>
+				</div>
+				<div id="box-skill-4" class="d-flex my-3 justify-content-between align-items-center">
+					<h6 class="m-0 col-2">Bootstrap</h6>
+					<span id="line4" class="line rounded"></span>
+				</div>
+				<div id="box-skill-5" class="d-flex my-3 justify-content-between align-items-center">
+					<h6 class="m-0 col-2">UI/UX</h6>
+					<span id="line5" class="line rounded"></span>
+				</div>
+				<div id="box-skill-6" class="d-flex my-3 justify-content-between align-items-center">
+					<h6 class="m-0 col-2">CorelDraw</h6>
+					<span id="line6" class="line rounded"></span>
+				</div>
+				<div id="box-skill-7" class="d-flex my-3 justify-content-between align-items-center">
+					<h6 class="m-0 col-2">Illustrator</h6>
+					<span id="line7" class="line rounded"></span>
+				</div>
+				<div id="box-skill-8" class="d-flex my-3 justify-content-between align-items-center">
+					<h6 class="m-0 col-2">Photoshop</h6>
+					<span id="line8" class="line rounded"></span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- section 5 -->
+	<section id="sec5" class="bg-dark my-5 py-5 text-white">
+		<h2 id="portfolio" class="text-center mb-1">Portfolio</h2>
+		<h6 id="subhead" class="text-center mb-5 font-weight-bold">Apa yang telah saya buat?</h6>
+		<div class="container d-flex justify-content-center row m-auto text-center">
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/pdf/ui-elehome.pdf" style="width: 300px; height: 200px;" target="blank"><img class="img-fluid" src="assets/img/ui-elehome.png" alt="200x300"></a>
+				<p>UI Mobile - Elehome (Electronic Home Services)</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/pdf/restaurant.pdf" target="blank"><img class="img-fluid" src="assets/img/resto.PNG" alt="200x300"></a>
+				<p>UI Web - Restorant</p>
+			</div>
+			<div id="portfolio-img" class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/pdf/apps.pdf" style="width: 300px; height: 100px;" target="blank"><img class="img-fluid" src="assets/img/apps.PNG" alt="200x300"></a>
+				<p>View UI Mobile - House</p>
+			</div>
+			<div id="portfolio-img" class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/pdf/Portf.PNG" style="width: 300px; height: 100px;" target="blank"><img class="img-fluid" src="assets/img/Portf.PNG" alt="200x300"></a>
+				<p>View UI Mobile - House</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/pdf/Fastcloth.pdf" target="blank"><img class="img-fluid" src="assets/img//Home.PNG" alt="200x300"></a>
+				<p>UI Web - Screen Printing</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/pdf/klinik.pdf" target="blank"><img class="img-fluid" src="assets/img//klinik.PNG" alt="200x300"></a>
+				<p>UI Web - Klinik Kesehatan</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/pdf/demo.html" target="blank"><img class="img-fluid" src="assets/img//demo1.jpg" alt="200x300"></a>
+				<p>Aplikasi My POS</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/img//hiday.PNG" target="blank"><img class="img-fluid" src="assets/img//hiday.PNG" alt="200x300"></a>
+				<p>Design Grafis</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/img//Banner.jpg" target="blank"><img class="img-fluid" src="assets/img//Banner.jpg" alt="10x300"></a>
+				<p>Banner</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/img//Fast Cloth.PNG" target="blank"><img class="img-fluid" src="assets/img//Fast Cloth.PNG" alt="200x300"></a>
+				<p>Logo Fastcloth</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/img//Panda.PNG" target="blank"><img class="img-fluid" src="assets/img//Panda.PNG" alt="200x300"></a>
+				<p>Gambar Panda</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/img//adidas.PNG" target="blank"><img class="img-fluid" src="assets/img//adidas.PNG" alt="200x300"></a>
+				<p>ADIDAS</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/img//adidabox.PNG" target="blank"><img class="img-fluid" src="assets/img//adidabox.PNG" alt="200x300"></a>
+				<p>ADIDAS BOX</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/img//samba.PNG" target="blank"><img class="img-fluid" src="assets/img//samba.PNG" alt="200x300"></a>
+				<p>Sepatu Adidas</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/img//city.jpg" target="blank"><img class="img-fluid" src="assets/img//city.jpg" alt="200x300"></a>
+				<p>Baju Adidas</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/img//ikapus.PNG" target="blank"><img class="img-fluid" src="assets/img//ikapus.PNG" alt="200x300"></a>
+				<p>Ikapus Fc</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/img//yakuza.PNG" target="blank"><img class="img-fluid" src="assets/img//yakuza.PNG" alt="200x300"></a>
+				<p>TKS Factory</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/img//tangselkaos.jpg" target="blank"><img class="img-fluid" src="assets/img//tangselkaos.jpg" alt="200x300"></a>
+				<p>Logo Tangselkaos</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="assets/img//LOGO BCA.PNG" target="blank"><img class="img-fluid" src="assets/img//LOGO BCA.PNG" alt="200x300"></a>
+				<p>Logo bca</p>
+			</div>
+			<div class="col-md-3 p-0 mx-2 my-2">
+				<a href="bootstrap/index.html" target="blank"><img class="img-fluid" src="assets/img/indek.PNG" alt="200x300"></a>
+				<p>Website Clothing Saya</p>
+			</div>
+		</div>
+		<div class="container d-flex justify-content-center">
+			<button id="btn-show" class="btn bg-secondary text-light shadow">
+				<span id="show-hide">More</span>
+				<i class="fa fa-angle-double-down"></i>
+			</button>
+		</div>
+	</section>
+
+	<!-- section 6 -->
+	<section id="sec6"  class="my-5 py-5">
+		<h2 id="contact" class="text-center mb-1">Kontak</h2>
+		<h6 id="subhead" class="text-center mb-5 font-weight-bold">Hubungi Saya</h6>
+
+		<div class="container d-flex justify-content-between row m-auto">
+
+			<div class="d-flex flex-column col-md-4 mt-3">
+				<h4>Kontak & Sosial Media</h4>
+				<div class="p-2"> <a href="https://www.linkedin.com/in/wahyudii"><img src="assets/img/linkedin.png" width="25" class="pr-1"> Wahyudi</a></div>
+				<div class="p-2"> <a href="https://m.facebook.com/wahyudi.shanchez"><img src="assets/img/facebook.png" width="25" class="pr-1"> Wahyudi</a></div>
+				<div class="p-2"> <a href="http://instagram.com/w_yuudi" target="_blank"><img src="assets/img/instagram.png" width="25" class="pr-1"> @w_yuudi</a></div>
+				<div class="p-2"> <a href="https://twitter.com/wahyudi77965670" target="_blank"><img src="assets/img/twitter.png" width="25" class="pr-1"> @Wahyudi</a></div>
+				<!-- <div class="p-2"> <a href="https://www.freelancer.co.id/u/muelava"><img src="assets/img/freelancer-indonesia.jpg" width="25" class="pr-1"> Muelava ID</a></div> -->
+			</div>
+			<div class="d-flex flex-column col-md-4 mt-3">
+				<h4>Alamat</h4>
+				<div class="p-2"> <a href="https://twitter.com/elang_fal" target="_blank"><img src="assets/img/placeholder.png" width="25" alt=""> Jl.Benda Barat 6 Blok B3 no 2 pamulang Tangerang Selatan</a></div>
+
+			</div>
+		</div>
+
+	</section>
+	<!-- /CONTAINER -->
 
 
-    <body id="home" class="scrollspy">
+	<!-- connect to js -->
+	<script src="assets/js/typed.min.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.easing.1.3.js"></script>
+</body>
 
-      
-    <!-- navbar -->
- <div class="navbar-fixed">
-    <nav class="blue darken-2">
-      <div class="container">
-        <div class="menu-wrapper responsive">
-          <a href="#home" class="brand-logo">Wahyudi</a>
-           <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#about">About As</a></li>
-            <li><a href="#clients">Clients</a></li>
-            <li><a href="#services">Service</a></li>
-            <li><a href="#portfolio">Portofolio</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-            <li><a href="bootstrap/index.html">Bisnis</a></li>
-            <!--   <li><a href="http://kodingasyik.com/">Tutorial</a>
-                  <ul>
-                    <li><a href="http://kodingasyik.com/category/html/">HTML</a></li>
-                    <li><a href="http://kodingasyik.com/category/html/">CSS</a></li>
-                    <li><a href="http://kodingasyik.com/category/html/">Bootstrap</a></li>
-                    <li><a href="http://kodingasyik.com/category/html/">CorelDraw</a></li>
-                  </ul>
-              </li> -->
-        </div>
-      </div>
-    </nav>
-  </div> 
-
-
-    <!-- Side Nav -->
- <ul class="sidenav" id="mobile-nav">
-            <li><a href="">About As</a></li>
-            <li><a href="">Clients</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Portofolio</a></li>
-            <li><a href="">Contact Us</a></li>
-           <!--  <li><a href="http://kodingasyik.com/">Tutorial</a>
-              <ul>
-                    <li><a href="http://kodingasyik.com/category/html/">HTML</a></li>
-                    <li><a href="http://kodingasyik.com/category/html/">CSS</a></li>
-                    <li><a href="http://kodingasyik.com/category/html/">Bootstrap</a></li>
-                    <li><a href="http://kodingasyik.com/category/html/">CorelDraw</a></li>
-                  </ul>
-             -->
-  </ul> 
-
-  <!-- slider-->
-   <div id="slider" class="parallax-container scrollspy">
-      <ul class="slides">
-       <div class="parallax"> <img src="img/slider/1.png">
-       </div>
-         <div class="container">
-          <div class="center">
-          <img src="img/slider/prifil.png" style="width: 174pt; right: 174pt;">
-        </div>
-        </div>
-      </ul>
-    </div>
-
-
-
-    <!-- About Us -->
-    <section id="about" class="about scrollspy">
-      <div class="container">
-        <div class="row">
-          <h3 class="center light grey-text text-darken-3"> About</h3>
-          <div class="col m4 s12 light">
-            <h5> About Me</h5>
-            <p> <b> Hallo Saya adalah seorang  Web Developmen dan juga Graphic designer yang telah banyak membuat berbagai design seperti design Product,Logo,Banner serta juga membuat beragai Website dan juga Aplikasi penjualan untuk saat ini saya masih menjalani pendidikan Strata 1 (S1) di Universitas Pamulang dan juga memiliki pengalaman sebagai Administrasi di PT.Tees Factory selama 4 tahun
-           </b> </p>
-            <a href="CV.html" class="waves-effect waves-light btn-small">Lihat CV</a>
-          </div>
-          <div class="col m4 s12 light">
-            <p>HTML&CSS</p>
-              <div class="progress">
-                  <div class="determinate blu" style="width: 90%"></div>
-              </div>
-              <p>PHP</p>
-              <div class="progress">
-                  <div class="determinate blu" style="width: 60%"></div>
-              </div>
-              <p>Bootsrap</p>
-              <div class="progress">
-                  <div class="determinate blu" style="width: 90%"></div>
-              </div>
-              <p>Codeigniter</p>
-              <div class="progress">
-                  <div class="determinate blu" style="width: 50%"></div>
-              </div>
-            <p>Microsoft Exel</p>
-              <div class="progress">
-                  <div class="determinate blu" style="width: 85%"></div>
-              </div>
-          </div>
-           <div class="col m4 s12">
-               <p> Microsoft Word</p>
-              <div class="progress">
-                  <div class="determinate blu" style="width: 90%"></div>
-              </div>
-               <p>Microsoft powerpoint</p>
-              <div class="progress">
-                  <div class="determinate blu" style="width: 80%"></div>
-              </div>
-              <p>Corel Draw</p>
-              <div class="progress">
-                  <div class="determinate blu" style="width: 90%"></div>
-              </div>
-              <p>Adobe Ilustrator</p>
-              <div class="progress">
-                  <div class="determinate blu" style="width: 80%"></div>
-              </div>
-              <p>PhotoShop</p>
-              <div class="progress">
-                  <div class="determinate blu" style="width: 60%"></div>
-              </div>
-              </div>
-        </div>
-        
-      </div>
-      
-
-    </section>
-
-    <!-- ClientS -->
-     <div id="clients" class="parallax-container scrollspy">
-        <div class="parallax"><img src="img/slider/4.png"></div>
-        <div class="container clients">
-          <h3 class="center light white-text ">Our Clients</h3>
-          <div class="row">
-
-            <div class="col m4 s12 center">
-              <img src="img/clients/Tokko1.png">        
-            </div>
-
-            <div class="col m4 s12 center">
-              <img src="img/clients/logo bjb.png">            
-            </div>
-
-            <div class="col m4 s12 center">
-              <img src="img/clients/Asuransi biintang.png">
-            </div>
-            
-          </div>
-
-        </div>
-    </div>
-
-
-    <!-- Services -->
-    <section id="services" class="Services grey lighten-3 scrollspy">
-      <div class="container">
-        <div class="row">
-          <h3 class="light center grey-text text-darken-3">Our Services</h3>
-          <div class="col m6 s12">
-            <div class="card-panel blue center">
-                  <i class="material-icons medium">desktop_windows</i>
-                <h5>Web Development</h5>
-                <p>
-                 Jasa pembuatan website usaha bisnis dan juga Company Profile
-                </p>
-            </div>
-          </div>
-              <div class="col m6 s12">
-                <div class="card-panel blue center">
-                  <i class="material-icons medium">border_color</i>
-                <h5> Graphic Designer</h5>
-                <p>
-                  Jasa pembuatan Design grafis mulai dari Logo,Banner,Spanduk dll.
-                </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio scrollspy">
-      <div class="container">
-        <h3 class="light center grey-text text-darken-3">Portfolio</h3>
-        <div class="row">
-          <div class="col m3 s12">
-            <img src="img/portfolio/tangselkaos.jpg" style="width: 900pt;" class="responsive-img materialboxed">
-          </div>
-          <div class="col m3 s12">
-            <img src="img/portfolio/fastcloth.jpeg" class="responsive-img materialboxed">
-          </div>
-          <div class="col m3 s12">
-            <img src="img/portfolio/covid.jpg" style="width: 900pt; height: 150pt;" class="responsive-img materialboxed">
-          </div>
-          <div class="col m3 s12">
-            <img src="img/portfolio/Banner.jpg" style="width:300pt; height: 150pt;" class="responsive-img materialboxed">
-          </div>
-          
-        </div>
-        <div class="row">
-          <div class="col m3 s12">
-            <a href="https://fastcloth123.000webhostapp.com/"><img src="img/portfolio/ecommerce.jpg" class="responsive-img">Website Ecommerce</a>
-          </div>
-          <div class="col m3 s12">
-            <a href="bootstrap/index.html"><img src="img/portfolio/web.jpg" class="responsive-img">Website Bisnis</a>
-          </div>
-          <div class="col m3 s12">
-           <a href="demo.html"> <img src="img/portfolio/demo1.jpg" class="responsive-img">Aplikasi POS penjualan</a>
-          </div>
-          <!-- <div class="col m3 s12">
-            <img src="img/portfolio/2.png" class="responsive-img materialboxed">
-          </div> -->
-          
-        </div>
-        
-      </div>
-    </section>
-
-
-    <!-- contact us -->
-    <section id="contact" class="contact grey lighten-3 scrollspy">
-      <div class="container">
-        <h3 class="light grey-text text-darken-3 center">Contact Us</h3>
-        <div class="row">
-          <div class="col m4 s12 center">
-            
-
-                
-                <div class="center">
-                 <a class="social-media-icon blue fa-2x facebook" href="https://m.facebook.com/wahyudi.shanchez">
-                  <span class="fab fa-facebook"></span>
-              </a>
-              <br>
-              <br>
-
-              <!-- Instagram -->
-              <a class="social-media-icon fa-2x blue instagram" href="http://instagram.com/w_yuudi">
-                  <span class="fab fa-instagram"></span>
-              </a>
-              <br>
-              <br>
-              <!-- Twitter -->
-              <a class="social-media-icon fa-2x blue twitter" href="https://twitter.com/skylight_army/">
-                  <span class="fab fa-twitter"></span>
-              </a>
-              <br>
-              <br>
-              <!-- Linkin -->
-              <a class="social-media-icon fa-2x blue linkedin" href="https://www.linkedin.com/in/wahyudii/">
-                  <span class="fab fa-linkedin"></span>
-              </a>
-              <br>
-              <br>
-              
-
-           </div>
-          </div>
-
-
-
-          <div class="col m4 s12">
-            
-
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="img/portfolio/kontak.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Kontak saya<i class="material-icons right">more_vert</i></span>
-              
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Kontak saya<i class="material-icons right">close</i></span>
-               <blockquote class="blockquote mb-0">
-                <p>No. Telp. / WhatsApp : 082285950790</p>
-                <p>Alamat               : Jl. Benda Barat 6 Blok B3 no 2 Pamulang, Kota Tangerang Selatan, Banten 15414</p>
-                <p>Email                : adi98.wahyudi@gmail.com</p>
-                <footer class="blockquote-footer">Terimakasih sudah mengunjungi website saya :) <cite title="Source Title"></cite></footer>
-              </blockquote>
-            </div>
-          </div>
-          </div>
-
-          <div class="col m4 s12">
-          <form>
-            <div class="card-panel">
-              <h5>Please fill out this form</h5>
-              <div class="input-field">
-                <input type="text" name="name" id="name" required class="validate">
-                <label for="name">Name</label>
-              </div>
-              <div class="input-field">
-                <input type="email" name="name" id="email" class="validate">
-                <label for="email">Email</label>
-              </div>
-              <div class="input-field">
-                <input type="email" name="phone" id="phone">
-                <label for="phone">Phone Number</label>
-              </div>
-              <div class="input-field">
-                <textarea name="message" id="message" class="materialize-textarea"></textarea>
-                <label for="message">Message</label>
-              </div>
-              <button type="submit" class="btn blue darken-2">Send</button>
-            </div>
-          </form>
-          </div>
-
-        </div>
-        
-      </div>
-      
-    </section>
-    <!-- footer -->
-    <footer class="blue darken-2 white-text center">
-      <p class="flow-text">Wahyudi. Copyright 2021.</p>
-    </footer>
-
-      <!--JavaScript at end of body for optimized loading-->
-     <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script>
-        const sideNav = document.querySelectorAll('.sidenav');
-        M.Sidenav.init(sideNav);
-
-        const slider = document.querySelectorAll('.slider');
-        M.Slider.init(slider, {
-          indicators: false,
-          height: 500,
-          transition: 600,
-          interval: 3000
-        });
-        const parallax = document.querySelectorAll('.parallax');
-        M.Parallax.init(parallax);
-
-        const materialbox = document.querySelectorAll('.materialboxed')
-        M.Materialbox.init(materialbox);
-
-        const scroll = document.querySelectorAll('.scrollspy');
-        M.ScrollSpy.init(scroll, {
-          scrollOffset: 50
-        });
-
-        
-      </script>
-       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
-  </html>
+</html>
