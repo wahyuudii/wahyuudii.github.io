@@ -101,7 +101,7 @@ nav ul li a:hover {
 /* section */
 #sec1 {
   /* max-width: initial!important; */
-  background-image: url("../img/background.png");
+  background-image: url("../img/background.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
